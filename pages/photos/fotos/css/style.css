@@ -1,0 +1,82 @@
+* {
+    color: aliceblue;
+}
+
+.myheader {
+    background-color: #6f27ea;
+}
+
+body {
+    background: linear-gradient(217deg, #fc00d9, rgba(255, 0, 0, 0) 70.71%),
+        linear-gradient(127deg, #ef7c2e, rgba(0, 255, 0, 0) 70.71%),
+        linear-gradient(336deg, #6f27ea, rgba(0, 0, 255, 0) 70.71%);
+}
+
+
+/*
+ max-width: 1920px;
+ max-width: 1080px;
+*/
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.grid-container {
+    display: grid;
+    margin-top: 8px;
+
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+img {
+    width: 100%;
+    padding: 2px;
+}
+
+
+.footer {
+    background-color: rgb(11, 12, 12);
+    padding: 15px;
+    margin-top: 80px;
+}
+
+.facebook {
+    color: rgb(17, 100, 253);
+}
+
+.instagram {
+    color: #fc00d9;
+}
+
+.whatsapp {
+    color: green;
+}
+
+
+/* @media (max-width: 800px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #incognit {
+        display: none;
+    } 
+  
+} */
+
+
+@media (max-width: 600px) {
+
+    .myheader a {
+        font-size: 2rem;
+        padding: 8px;
+    }
+
+    .grid-container {
+        display: block;
+        padding: 5px;
+    }
+}
