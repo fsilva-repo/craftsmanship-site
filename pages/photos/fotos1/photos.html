@@ -6,29 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Photos</title>
 
-    <!--bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+          crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-        crossorigin="anonymous"></script>
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="./css/style.css">
     <script src="./script/index.js" defer></script>
+
+    <!-- ==== LIGHTBOX2 ==== -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css"
+          rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox-plus-jquery.min.js"></script>
 
 </head>
 
 <body class="bg-dark">
 
     <header class="myheader">
-
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand  active text-white" href="/index.html" aria-current="page">Home</a>
+                <a class="navbar-brand active text-white" href="/index.html" aria-current="page">Home</a>
 
-                <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                <button class="navbar-toggler text-white" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup"
+                        aria-controls="navbarNavAltMarkup"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon text-dark mySpan"></span>
                 </button>
 
@@ -40,40 +49,86 @@
                 </div>
             </div>
         </nav>
-
     </header>
-
 
     <div id="big-box">
         <main class="grid-container">
+
+            
             <div class="item" id="receive1">
-                <img src="./img/animals/shark-final.png" alt="tubarão esculpido em isopor e fibras">
-                <img src="./img/clients/cavalinho-carrossel-4.jpeg" alt="">
-                <img src="./img/objects/pastel-5.jpeg" alt="mesa tronco de arvore">
+                <a href="./img/animals/shark-final.png"
+                   data-lightbox="galeria-fotos"
+                   data-title="tubarão esculpido em isopor e fibras">
+                    <img src="./img/animals/shark-final.png"
+                         alt="tubarão esculpido em isopor e fibras">
+                </a>
+
+                <a href="./img/clients/cavalinho-carrossel-4.jpeg"
+                   data-lightbox="galeria-fotos"
+                   data-title="cavalinho de carrossel">
+                    <img src="./img/clients/cavalinho-carrossel-4.jpeg"
+                         alt="">
+                </a>
+
+                <a href="./img/objects/pastel-5.jpeg"
+                   data-lightbox="galeria-fotos"
+                   data-title="pastel grande">
+                    <img src="./img/objects/pastel-5.jpeg"
+                         alt="pastell grande 130x80">
+                </a>
             </div>
+
             <div class="item" id="receive2">
-                <img src="./img/objects/cha-panela-01.jpeg" alt="decoração cha de panela">
-                <img src="./img/clients/cliente.jpeg" alt="">
-                <img src="./img/objects/mesa-tronco-em-uso-4.jpeg" alt="mesa tronco de arvore">
+                <a href="./img/objects/cha-panela-01.jpeg"
+                   data-lightbox="galeria-fotos"
+                   data-title="decoração chá de panela">
+                    <img src="./img/objects/cha-panela-01.jpeg"
+                         alt="decoração chá de panela">
+                </a>
+
+                <a href="./img/clients/cliente.jpeg"
+                   data-lightbox="galeria-fotos"
+                   data-title="surfista trofeu de ouro">
+                    <img src="./img/clients/cliente.jpeg"
+                         alt="surfista trofeu de ouro">
+                </a>
+
+                <a href="./img/objects/mesa-tronco-em-uso-4.jpeg"
+                   data-lightbox="galeria-fotos"
+                   data-title="mesa tronco de árvore">
+                    <img src="./img/objects/mesa-tronco-em-uso-4.jpeg"
+                         alt="mesa tronco de arvore">
+                </a>
             </div>
+
             <div class="item" id="incognit">
-                <img src="./img/objects/cha-panela-02.jpeg" alt="decoração cha de panela">
-                <img src="./img/objects/foto-mesa-arvore.jpg" alt="mesa tronco de arvore">
-                <img src="./img/animals/shark.png" alt="tubarão esculpido em isopor e fibras">
+                <a href="./img/objects/cha-panela-02.jpeg"
+                   data-lightbox="galeria-fotos"
+                   data-title="decoração chá de panela">
+                    <img src="./img/objects/cha-panela-02.jpeg"
+                         alt="decoração cha de panela">
+                </a>
+
+                <a href="./img/objects/foto-mesa-arvore.jpg"
+                   data-lightbox="galeria-fotos"
+                   data-title="mesa tronco de árvore">
+                    <img src="./img/objects/foto-mesa-arvore.jpg"
+                         alt="mesa tronco de arvore">
+                </a>
+
+                <a href="./img/animals/shark.png"
+                   data-lightbox="galeria-fotos"
+                   data-title="tubarão esculpido em isopor e fibras">
+                    <img src="./img/animals/shark.png"
+                         alt="tubarão esculpido em isopor e fibras">
+                </a>
             </div>
 
         </main>
     </div>
 
-
- 
-
-
-
     <footer class="footer justify-content-center">
-
         <ul class="nav justify-content-center">
-
             <li class="nav-item">
                 <a class="nav-link Facebook" href="#">Facebook</a>
             </li>
@@ -84,9 +139,7 @@
                 <a class="nav-link whatsapp"
                    href="http://api.whatsapp.com/send?1=pt_BR&phone=5521993399382">WhatsApp</a>
             </li>
-
         </ul>
-
     </footer>
 </body>
 

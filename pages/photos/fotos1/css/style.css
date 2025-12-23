@@ -80,3 +80,13 @@ img {
         padding: 5px;
     }
 }
+
+
+     /* Opcional – deixa o fundo da lightbox um pouco mais escuro */
+        .lb-backdrop {
+            background: rgba(0, 0, 0, 0.95);
+        }
+        /* Cantos arredondados nas imagens exibidas */
+        .lb-image {
+            border-radius: 8px;
+        }
