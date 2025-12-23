@@ -22,10 +22,10 @@ const burger = document.querySelector('.burger');
 const drink = document.querySelector('.drink');
 const candy = document.querySelector('.candy');
 
-const height = window.screen.height;
-const width = window.screen.width;
+const heightScreen = window.screen.height;
+const widthScreen = window.screen.width;
 
-if (width < 600) {
+if (widthScreen < 600) {
     horse.setAttribute('src', 'img/animals/horse-552.png');
     burger.setAttribute('src', 'img/hamburger/burger-552.png');
     drink.setAttribute('src', 'img/drinks/drink-552.png');

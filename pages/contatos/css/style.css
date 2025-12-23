@@ -9,7 +9,8 @@
 
 
 .facebook {
-    color: rgb(17, 100, 253);
+    font-weight: bold;
+    color: rgb(17, 100, 253); /**/
 }
 
 .instagram {
@@ -47,3 +48,19 @@ ul li {
         padding: 8px;
     }
 }
+
+
+/* MAPA */
+
+.map-section {
+  margin-top: 40px;
+  width: 100%;
+  height: 400px;
+}
+.map {
+  width: 100%;
+  height: 360px;
+  border-radius: 14px;
+  
+}
+
